@@ -15,8 +15,8 @@ jobs:
       - name: Another greeting
         run: echo "Hello, CI/CD again!"
 
-      - name: Try to fail
-        run: exit 1
+      # - name: Try to fail
+      #   run: exit 1
 
       - name: Success message
         run: echo "All test passed!"
